@@ -5,6 +5,7 @@
   - install
   - remove
   - upgrade
+ - Look at `eopkg.py` for some examples
 
 ## Running this module with an Ansible playbook
 
