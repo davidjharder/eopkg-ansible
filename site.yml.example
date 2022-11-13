@@ -1,0 +1,11 @@
+---
+- name: eopkg install test
+  hosts: localhost
+  tasks:
+  - name: install htop
+    become: true
+    become_user: root
+    eopkg:
+      state: present
+      name: htop
+      update_installed_packages: true
